@@ -1,15 +1,18 @@
 # bruceZL
 teste etec
 TESTE
-SO QuERO TOCAR GUITARRA
-SO QUERO COMER
-fabrizyzzzzz
-rei of aesthetics
-SO QUERO ME FORMAR
-SO QUERO TER ED FISICA MANAHA NA ESCOLA
+teste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
+TESTEteste etec
 TESTE
-TESTE
-TESTE
-E MAIS TESTES
-APENAS UM SHOW É MUITO BOM!
-TUDO NESSA VIDA É MUITO BOM
+
