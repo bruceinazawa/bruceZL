@@ -1,0 +1,57 @@
+create table produtos(
+
+    id serial PRIMARY KEY,
+
+    nome varchar(200)
+
+);
+
+
+
+create table clientes (
+
+    id serial PRIMARY KEY,
+
+    nome varchar(200)
+
+);
+
+
+
+create table vendas(
+
+    id serial PRIMARY KEY,
+
+    id_produto integer NOT NULL,
+
+    id_cliente integer NOT NULL
+
+);
+
+
+
+ALTER TABLE vendas
+
+ADD CONSTRAINT VdaProd
+
+FOREIGN KEY (id_produto) REFERENCES produtos(id);
+
+
+
+ALTER TABLE vendas
+
+ADD CONSTRAINT VdaCli
+
+FOREIGN KEY (id_cliente) REFERENCES clientes(id);
+
+
+
+insert into produtos (nome) values ('carro'),('computador'),('alface'),('pet');
+
+insert into clientes (nome) values ('Hug'), ('Zez'), ('Lui'),('tioPatinhas');
+
+
+
+insert into vendas (id_produto, id_cliente) values
+
+(1,1),(2,2),(2,3),(4,1),(4,2),(4,3),(4,4);
