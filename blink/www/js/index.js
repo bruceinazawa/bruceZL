@@ -30,7 +30,7 @@ function onDeviceReady() {
                 'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
                 'Heading: '           + position.coords.heading           + '\n' +
                 'Speed: '             + position.coords.speed             + '\n' +
-                'Timestamp: '         + position.timestamp                + '\n');
+                'Timestamp: '         + position.timestamp                + '\n' +
 
           document.getElementById("Latitude").value = position.coords.latitude;
           document.getElementById("Longitude").value = position.coords.longitude;
