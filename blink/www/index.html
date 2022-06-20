@@ -1,33 +1,10 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
     <head>
         <meta charset="utf-8">
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
-            https://cordova.apache.org/docs/en/latest/
-        Some notes:
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
+
+
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -37,39 +14,26 @@
         <title>Hello World</title>
     </head>
     <body>
-    <label for="latitude">Latitude</label>
-    <input type="text" id="latitude" value="Latitude"></input><br></br<>
+    <label for="Latitude">Latitude</label>
+    <input type="text" id="Latitude" value="Latitude"></input><br></br<>
 
-    <label for="latitude">Longitude</label>
-    <input type="text" id="longitude" value="Longitude"></input><br></br<>
+    <label for="Longitude">Longitude</label>
+    <input type="text" id="Longitude" value="Longitude"></input><br></br<>
 
     <label for="Altitude">Altitude</label>
-    <input type="text" id="altitude" value="Altitude"></input><br></br<>
+    <input type="text" id="Altitude" value="Altitude"></input><br></br<>
 
-    <label for="accuary">Accuary</label>
-    <input type="text" id="accuary" value="accuary"></input><br></br<>
+    <label for="Accuracy">Accuracy</label>
+    <input type="text" id="Accuracy" value="accuary"></input><br></br<>
 
-    <label for="accuary">Accuary</label>
-    <input type="text" id="accuary" value="accuary"></input><br></br<>
+    <label for="Altitude Accuracy">Altitude Accuracy</label>
+    <input type="text" id="Altitude Accuracy" value="Altitude Accuary"></input><br></br<>
 
-    <label for="altitudeaccuary">Accuary</label>
-    <input type="text" id="altitudeaccuary" value="Altitude Accuary"></input><br></br<>
+    <label for="Heading">Heading</label>
+    <input type="text" id="Heading" value="Heading"></input><br></br<>
 
-    <label for="heading">Heading</label>
-    <input type="text" id="heading" value="Heading"></input><br></br<>
-
-    <label for="speed">Speed</label>
-    <input type="text" id="speed" value="Speed"></input><br></br<>
-
-
-
-    <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+    <label for="Speed">Speed</label>
+    <input type="text" id="Speed" value="Speed"></input><br></br<>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>
     </body>
